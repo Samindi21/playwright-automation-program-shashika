@@ -1,0 +1,11 @@
+
+class RegisterPage{
+
+    //LOCATORS
+
+
+    //METHODS
+
+
+    
+}

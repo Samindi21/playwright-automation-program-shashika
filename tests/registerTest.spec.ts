@@ -30,6 +30,8 @@ test.only('Register Page', async ({page})=> {
     // Fill in the username and password fields
     await page.type('input[id="username"]','shashikasamindi1221@gmail.com');
     await page.type('input[id="password"]', 'ShashiS');
+
+    await page.locator()
     
     await page.waitForTimeout(2000);
 
@@ -43,9 +45,6 @@ test.only('Register Page', async ({page})=> {
 
 } )
 
-//in async every step processed with the previous one
-//async keyword make function returns a promise.
-//await makes the function wait for the promise. 
 
 
 

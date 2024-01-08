@@ -1,0 +1,10 @@
+class HomePage{
+
+    //LOCATORS
+
+
+    //METHODS
+
+
+
+}
