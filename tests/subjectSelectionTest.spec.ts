@@ -13,6 +13,9 @@ import { test, expect } from '@playwright/test';
 test('has title', async ({ page }) => {
   await page.goto('https://onlinelibrary.wiley.com');
 
+  await page.waitForTimeout(3000);
+  //await
+
 
 
   // Expect a title "to contain" a substring.
