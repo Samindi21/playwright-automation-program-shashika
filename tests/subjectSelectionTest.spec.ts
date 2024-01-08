@@ -5,7 +5,7 @@
 3)click on computer science
 4)check whether the page is redirected to the computer science page
 5)check the heading "Computer Science" is displayed.
-
+ 
 */
 
 import { test, expect } from '@playwright/test';
